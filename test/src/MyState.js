@@ -16,9 +16,7 @@ class MyState extends React.Component {
     handleClick(e){
 
         let d = new Date();
-
-        console.log(e);
-
+         
         this.setState({
             txt: d.toTimeString()
         })
