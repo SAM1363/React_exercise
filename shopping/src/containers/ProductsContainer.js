@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {addToCart} from '../actions';
 import {getVisibleProducts} from '../reducers/products';
 import ProductItem from '../components/ProductItem';
-import Productslist from '../components/ProductsList';
+import ProductsList from '../components/ProductsList';
 
 const ProductsContainer = ({products, addToCart}) => (
     <ProductsList title='Products'>
